@@ -1,0 +1,1965 @@
+*{
+    padding: 0; 
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100% ;
+    background-color: white;
+    position: relative ;
+}
+
+.menu{
+    width: 100% ;
+    height: 25px ;
+    background-color: #EFF0F5;
+    position: relative ;
+}
+
+.header{
+    width: 80% ;
+    height: 25px ;
+    position: relative ;
+    font-family: Roboto-Regular, Helvetica, sans-serif ;
+    font-size: 11.5px ;
+    display: flex ;
+    justify-content: right;
+    align-items: center;
+    margin: auto ;
+    letter-spacing: 0px;
+}
+
+.header div{
+    margin-left: 40px ;
+}
+.luachon1{
+    color: #f0f ;
+}
+.luachon1:hover{
+    color: #F36D4F ;
+}
+.luachon2{
+    color: black ;
+}
+.luachon2:hover{
+    color: #F36D4F ;
+}
+.luachon3{
+    color: #9E9E9E ;
+}
+.luachon3:hover{
+    color: #F36D4F ;
+}
+
+.page_body{
+    margin-top: 10px ;
+    position: relative ;
+    width: 100% ;
+    height: 3000px ;
+}
+
+.logo_input{
+    width: 80% ;
+    height: 48.3px ;
+    margin: auto ;
+    position: relative ;
+    display: flex ;
+    align-items: center;
+}
+
+.logo{
+    width: 16%  ;
+    height: 100% ;
+    position: relative ;
+}
+.logo img{
+    height: 35px ;
+    width: auto ;
+    margin-top: 5px ;
+}
+
+.timkiem{
+    height: 48.3px ;
+    width: 58% ;
+}
+
+.timkiem input{
+    width: 100% ;
+    height: 45px ;
+    margin-top: 1.65px ;
+    background-color: #EFF0F5;
+    padding-left: 15px ;
+    border: none ;
+    font-family: Roboto-Regular, Helvetica, sans-serif ;
+    font-size: 14px ;
+    line-height: 14px;
+    color:#9E9E9E;
+}
+
+.execute_search{
+    width: 45px ;
+    height: 45px ;
+    background-color: #F57224;
+    border: none ;
+    font-size: 14px ;
+    color: white ;
+    font-family: Arial ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop{
+    height: 26px ;
+    width: 29px ;
+    font-size: 27px ;
+    margin-left: 30px ;
+    border: none ;
+}
+
+.quang_cao_200k img{
+    height: 45px ;
+    width: 188px ;
+    margin-left: 50px ;
+}
+
+.services{
+    width: 80% ;
+    height: 40px ;
+    display: flex ;
+    margin-top: 20px ;
+    margin-left: 10% ; margin-right: 10% ;
+    position: relative ;
+    font-family: Roboto, sans-serif ;
+}
+
+.category{
+    height: 40px ;
+    width: 16% ;
+    display: flex ;
+    justify-content: left ;
+    align-items: center;
+    font-size: 15px ;
+    font-family: Roboto-Medium, sans-serif;
+    position: absolute ;
+    padding-left: 15px ;
+}
+
+.category:hover i{
+    transform: rotate(180deg);
+}
+.category:hover{
+    color: #F58326 ;
+}
+
+.genre-list{
+    display: none ;
+    position: absolute ;
+    top: 100% ;
+    left: 0 ; margin:0; padding: 0 ;
+    list-style-type: none;
+    background-color: white;
+    color:#757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    /* padding-left: 10px ; */
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+
+.genre{
+    height: 27px ;
+    width: 200px ;
+    white-space: nowrap;
+    overflow: hidden ;
+    text-overflow: ellipsis;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+.category:hover .genre-list{
+    display: block ;
+}
+
+.genre:hover{
+    color: #F58326 ;
+}
+.ElecDev{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.genre:hover .ElecDev{
+    display: block ;
+}
+.ED{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+.ElecAcc{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.genre:hover .ElecAcc{
+    display: block ;
+}
+.EA{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+.TVHome{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.genre:hover .TVHome{
+    display: block ;
+}
+.TV{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+.HeBe{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.genre:hover .HeBe{
+    display: block ;
+}
+.HB{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+.BaTo{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.genre:hover .BaTo{
+    display: block ;
+}
+.BT{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.GoPe{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.genre:hover .GoPe{
+    display: block ;
+}
+.GP{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+.HoLi{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.genre:hover .HoLi{
+    display: block ;
+}
+.HL{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.WoFa{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.genre:hover .WoFa{
+    display: block ;
+}
+.WFA{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+.MeFa{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.genre:hover .MeFa{
+    display: block ;
+}
+.MFA{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+.KiFa{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.genre:hover .KiFa{
+    display: block ;
+}
+.KFA{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+.SpoTra{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.genre:hover .SpoTra{
+    display: block ;
+}
+.SpTr{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.AuMo{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.genre:hover .AuMo{
+    display: block ;
+}
+.AM{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.LapTyp{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.ED:hover .LapTyp{
+    display: block ;
+}
+.Laptops{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.DeskCom{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.ED:hover .DeskCom{
+    display: block ;
+}
+.DeCom{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.Audio{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.ED:hover .Audio{
+    display: block ;
+}
+.Aud{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.SeCaSy{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.ED:hover .SeCaSy{
+    display: block ;
+}
+.SCS{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+.CamDro{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.ED:hover .CamDro{
+    display: block ;
+}
+.CaDr{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.ViAcCa{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.ED:hover .ViAcCa{
+    display: block ;
+}
+.VAC{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.Print{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.ED:hover .Print{
+    display: block ;
+}
+.Pri{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.SmaWa{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.ED:hover .SmaWa{
+    display: block ;
+}
+.SW{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.CosGam{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.ED:hover .CosGam{
+    display: block ;
+}
+.CoGa{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.MobAcc{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.EA:hover .MobAcc{
+    display: block ;
+}
+.MoAc{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.SmaDev{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.EA:hover .SmaDev{
+    display: block ;
+}
+.SmDe{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.Gadgets{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.EA:hover .Gadgets{
+    display: block ;
+}
+.Gad{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.CamAcc{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.EA:hover .CamAcc{
+    display: block ;
+}
+.CaAc{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.DroAcc{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.EA:hover .DroAcc{
+    display: block ;
+}
+.DrAc{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.DatSto{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.EA:hover .DatSto{
+    display: block ;
+}
+.DaSt{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.ComAcc{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.EA:hover .ComAcc{
+    display: block ;
+}
+.CoAc{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.CompComp{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.EA:hover .CompComp{
+    display: block ;
+}
+.ComCom{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.LenAcc{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.EA:hover .LenAcc{
+    display: block ;
+}
+.LeAc{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.NetCom{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.EA:hover .NetCom{
+    display: block ;
+}
+.NeCo{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.ConGamAcc{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.EA:hover .ConGamAcc{
+    display: block ;
+}
+.CoGaAc{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.MobAcc{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.EA:hover .MobAcc{
+    display: block ;
+}
+.MoAc{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.SmaApp{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.TV:hover .SmaApp{
+    display: block ;
+}
+.SmAp{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.LarApp{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.TV:hover .LarApp{
+    display: block ;
+}
+.LaAp{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.LazMall{
+    height: 40px ;
+    width: 73.2px ;
+    position: absolute ;
+    margin-left: 205px ;
+    display: flex;
+    align-items: center;
+    font-size: 14px ;
+}
+.LazMall img{
+    width: 21px ;
+    height: 21px ;
+}
+
+.Vouchers{
+    height: 40px ;
+    width: 84px ;
+    position: absolute ;
+    margin-left: 300px ;
+    display: flex ;
+    align-items: center;
+    font-size: 14px ;
+}
+
+.Vouchers img{
+    height: 21px ;
+    width: 21px ;
+}
+
+.Coupons{
+    height: 40px ;
+    width: 140px ;
+    position: absolute ;
+    margin-left: 400px ;
+    display: flex;
+    align-items: center;
+    font-size: 14px ;
+}
+
+.Coupons img{
+    height: 21px ;
+    width: 21px ;
+}
+
+.LazGlobal{
+    height: 40px ;
+    width: 87px ;
+    position: absolute ;
+    margin-left: 560px ;
+    display: flex;
+    align-items: center;
+    font-size: 14px ;
+}
+
+.LazGlobal img{
+    height: 21px;
+    width: 21px ;
+}
+
+.mat_hang{
+    width: 100% ;
+    height: 4000px ;
+    background-color: #EFF0F5 ;
+    position: relative ;
+}
+.offer img{
+    height: 400px ;
+    width: 94% ;
+    position: relative ;
+    margin-left:3% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LazMall_Banner{
+    width: 100% ;
+    height: 70px ;
+    background-color: #FF3552;
+    display: flex;
+    /* align-items: center; */
+}
+
+.LazMall_logo{
+    color: white ;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    width: 10.92% ;
+    height: 70px ;
+    position: absolute ;
+    margin-left: 166px ;
+    font-size: 50px ;
+    display: flex;
+    align-items: center;
+}
+
+.three_quality{
+    width: 39% ;
+    height: 70px ;
+    position: relative ;
+    margin-left: 50% ;
+    color: white ;
+    font-family: Roboto, sans-serif ;
+    font-size: 20px ;
+    display: flex;
+    align-items: center;
+}
+
+.three_quality img{
+    height: 30px ;
+    width: 30px ;
+    margin-left: 10px ;
+}
+
+.three_quality span{
+    margin-left: 20px ;
+}
+
+.info{
+    height: 16px ;
+    width: 16px ;
+    border-radius: 50% ;
+    border: 1.5px solid white ;
+    color: white ;
+    font-size: 12px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    margin-left: 8px ;
+    margin-top: 15px ;
+}
+
+.SkinCare{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.HB:hover .SkinCare{
+    display: block ;
+}
+.SkiCar{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.Makeup{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.HB:hover .Makeup{
+    display: block ;
+}
+.MaUp{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.BeauTool{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.HB:hover .BeauTool{
+    display: block ;
+}
+.BeaToo{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.BathBody{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.HB:hover .BathBody{
+    display: block ;
+}
+.BatBod{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.haircare{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.HB:hover .haircare{
+    display: block ;
+}
+.HaiCar{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.PersCare{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.HB:hover .PersCare{
+    display: block ;
+}
+.PerCar{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.MenCare{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.HB:hover .MenCare{
+    display: block ;
+}
+.MeCar{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.Fragrant{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.HB:hover .Fragrant{
+    display: block ;
+}
+.Perfume{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.FoodSupp{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.HB:hover .FoodSupp{
+    display: block ;
+}
+.FooSup{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.BeauSupp{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.HB:hover .BeauSupp{
+    display: block ;
+}
+.BeaSup{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.SexuWell{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.HB:hover .SexuWell{
+    display: block ;
+}
+.SexWel{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.MediSupp{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.HB:hover .MediSupp{
+    display: block ;
+}
+.MedSup{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.DiapPotty{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.BT:hover .DiapPotty{
+    display: block ;
+}
+.DiaPot{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.MiFoBaFo{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.BT:hover .MiFoBaFo{
+    display: block ;
+}
+.MFBF{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.BaFaAcc{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.BT:hover .BaFaAcc{
+    display: block ;
+}
+.BFAcc{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.FeedEsse{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.BT:hover .FeedEsse{
+    display: block ;
+}
+.FeeEss{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.BabyGear{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.BT:hover .BabyGear{
+    display: block ;
+}
+.BabGea{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.Nursery{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.BT:hover .Nursery{
+    display: block ;
+}
+.Nurse{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.BaPerCare{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.BT:hover .BaPerCare{
+    display: block ;
+}
+.BaPeCa{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.ToysGames{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.BT:hover .ToysGames{
+    display: block ;
+}
+.ToyGam{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.ElecRemoCtrl{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.BT:hover .ElecRemoCtrl{
+    display: block ;
+}
+.EleRemCtr{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.SpoToyOutPlay{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.BT:hover .SpoToyOutPlay{
+    display: block ;
+}
+.SpToOuPl{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.BadToddToy{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.BT:hover .BadToddToy{
+    display: block ;
+}
+.BaToToy{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
+
+.LearnEduca{
+    display: none ;
+    position: absolute ;
+    left: 100% ;
+    margin: 0 ; padding: 0 ; top: 0 ;
+    list-style-type: none ;
+    background-color: white ;
+    color: #757575 ;
+    border: 1px black ;
+    z-index: 999 ;
+    font-family: Roboto, sans-serif ;
+    font-size: 13px ;
+    height: 350px ;
+    width: 200px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.BT:hover .LearnEduca{
+    display: block ;
+}
+.LeaEdu{
+    height: 27px ;
+    width: 200px ;
+    display: flex ;
+    align-items: center ;   
+    margin-left: 10px ;
+    margin-top: 2px ;
+}
